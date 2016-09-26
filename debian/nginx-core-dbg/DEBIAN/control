@@ -1,0 +1,20 @@
+Package: nginx-core-dbg
+Source: nginx
+Version: 1.10.0-azet-modsecurity-01
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3677
+Depends: nginx-core (= 1.10.0-azet-modsecurity-01)
+Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg
+Section: debug
+Priority: extra
+Homepage: http://nginx.net
+Description: nginx web/proxy server (core version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-core, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
+Build-Ids: 6244490a785457ba3102b73a7d7c5aec52d758d6
+Original-Maintainer: Kartik Mistry <kartik@debian.org>

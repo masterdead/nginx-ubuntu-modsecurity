@@ -1,0 +1,17 @@
+Package: nginx
+Version: 1.10.0-azet-modsecurity-01
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 37
+Depends: nginx-core (>= 1.10.0-azet-modsecurity-01) | nginx-full (>= 1.10.0-azet-modsecurity-01) | nginx-light (>= 1.10.0-azet-modsecurity-01) | nginx-extras (>= 1.10.0-azet-modsecurity-01), nginx-core (<< 1.10.0-azet-modsecurity-01.1~) | nginx-full (<< 1.10.0-azet-modsecurity-01.1~) | nginx-light (<< 1.10.0-azet-modsecurity-01.1~) | nginx-extras (<< 1.10.0-azet-modsecurity-01.1~)
+Section: httpd
+Priority: optional
+Homepage: http://nginx.net
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-core (by default),
+ nginx-full, nginx-light, or nginx-extras.
+Original-Maintainer: Kartik Mistry <kartik@debian.org>

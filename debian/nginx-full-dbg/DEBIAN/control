@@ -1,0 +1,20 @@
+Package: nginx-full-dbg
+Source: nginx
+Version: 1.10.0-azet-modsecurity-01
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4139
+Depends: nginx-full (= 1.10.0-azet-modsecurity-01)
+Conflicts: nginx-core-dbg, nginx-extras-dbg, nginx-light-dbg
+Section: debug
+Priority: extra
+Homepage: http://nginx.net
+Description: nginx web/proxy server (standard version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-full, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
+Build-Ids: ec4f6998e96de8c73aef844d27e8b4c91a21718b
+Original-Maintainer: Kartik Mistry <kartik@debian.org>

@@ -1,0 +1,17 @@
+Package: nginx-doc
+Source: nginx
+Version: 1.10.0-azet-modsecurity-01
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 62
+Depends: lsb-base (>= 3.2-14)
+Section: doc
+Priority: optional
+Homepage: http://nginx.net
+Description: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+Original-Maintainer: Kartik Mistry <kartik@debian.org>

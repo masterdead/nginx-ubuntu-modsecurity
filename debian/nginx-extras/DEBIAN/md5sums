@@ -1,0 +1,7 @@
+22e39368e1020c4084c02fdcbff893e1  usr/lib/x86_64-linux-gnu/perl5/5.22/auto/nginx/nginx.so
+8b9459e658b626d84e68c0e7f8ebc70f  usr/lib/x86_64-linux-gnu/perl5/5.22/nginx.pm
+8850e66ccce69977bd21ec8019db530a  usr/sbin/nginx
+f91cbaee802994fa37fe60f38eedf00e  usr/share/doc/nginx-extras/changelog.Debian.gz
+e95cfc45eeb7e4f2abe0ff81b8724b08  usr/share/doc/nginx-extras/copyright
+c9829de3cc86f4459b1f80eccfdf3db8  usr/share/lintian/overrides/nginx-extras
+f6dd021325286f71bf656a6fdd2ce941  usr/share/man/man8/nginx.8.gz

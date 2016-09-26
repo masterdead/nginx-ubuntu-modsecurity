@@ -1,0 +1,11 @@
+nginx-common_1.10.0-azet-modsecurity-01_all.deb httpd optional
+nginx-core-dbg_1.10.0-azet-modsecurity-01_amd64.deb debug extra
+nginx-core_1.10.0-azet-modsecurity-01_amd64.deb httpd optional
+nginx-doc_1.10.0-azet-modsecurity-01_all.deb doc optional
+nginx-extras-dbg_1.10.0-azet-modsecurity-01_amd64.deb debug extra
+nginx-extras_1.10.0-azet-modsecurity-01_amd64.deb httpd extra
+nginx-full-dbg_1.10.0-azet-modsecurity-01_amd64.deb debug extra
+nginx-full_1.10.0-azet-modsecurity-01_amd64.deb httpd optional
+nginx-light-dbg_1.10.0-azet-modsecurity-01_amd64.deb debug extra
+nginx-light_1.10.0-azet-modsecurity-01_amd64.deb httpd extra
+nginx_1.10.0-azet-modsecurity-01_all.deb httpd optional

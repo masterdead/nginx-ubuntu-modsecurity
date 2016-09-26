@@ -1,0 +1,21 @@
+Package: nginx-extras-dbg
+Source: nginx
+Version: 1.10.0-azet-modsecurity-01
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6321
+Depends: nginx-extras (= 1.10.0-azet-modsecurity-01)
+Conflicts: nginx-core-dbg, nginx-full-dbg, nginx-light-dbg
+Section: debug
+Priority: extra
+Homepage: http://nginx.net
+Description: nginx web/proxy server (extended version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-extras, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+Build-Ids: 3ff1667bfe74d54d7f4358e1758da357d11409ef dc3d1e15225dc3af361dde2e42ad7ba36d444666
+Original-Maintainer: Kartik Mistry <kartik@debian.org>
